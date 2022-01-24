@@ -36,7 +36,7 @@
     "gatsby"
   ],
   "license": "0BSD",
-  "homepage": "http://exposicion.epizy.com/",
+  "homepage": "http://exposicion.epizy.commm/",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
