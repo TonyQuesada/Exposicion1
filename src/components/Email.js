@@ -7,12 +7,12 @@ const email = () => {
     return (
         <EmailContainer>
             <EmailContent>
-                <h1>Get Access to Exclusive Offers</h1>
-                <p>Sing up for you newsletter below to get $100 off your first trips!</p>
+                <h1>Obtenga Acceso a Ofertas Exclusivas</h1>
+                <p>¡Regístrese para su boletín de noticias a continuación para obtener $ 100 de descuento en sus primeros viajes!</p>
                 <form action="#">
                     <FormWrap>
                         <label htmlFor="email">
-                            <input type="email" placeholder="Enter your email" id="email" />
+                            <input type="email" placeholder="Introduce tu correo electrónico" id="email" />
                         </label>
                         <Button
                             as="button"
@@ -33,7 +33,7 @@ const email = () => {
                                 }
                             `}
                         >
-                            Sign Up
+                            Inscribirse
                         </Button>
                     </FormWrap>
                 </form>

@@ -26,10 +26,10 @@ const Testimonials = () => {
     return (
         <TestimonialsContainer>
             <TopLine>
-                Testimonials
+                Testimonios
             </TopLine>
             <Description>
-                What people are Saying
+                Lo que la gente esta diciendo
             </Description>
             <ContentWrapper>
                 <ColumnOne>
@@ -41,8 +41,8 @@ const Testimonials = () => {
                                 margin-bottom: 1rem;
                             `}
                         />
-                        <h3>Sean Michaels</h3>
-                        <p>"The greatest experience of my life! It was so much fun exploring the montains and they made it super easy to book my trip and accommodation."</p>
+                        <h3>Guillermo Cañas</h3>
+                        <p>"La mayor experiencia de mi vida! Fue muy divertido explorar las montañas e hicieron que fuera muy fácil reservar mi viaje y alojamiento."</p>
                     </Testimonial>
                     <Testimonial>
                         <FaRegLightbulb 
@@ -52,8 +52,8 @@ const Testimonials = () => {
                                 margin-bottom: 1rem;
                             `}
                         />
-                        <h3>Sarah Kin</h3>
-                        <p>"It was so easy to set up my trip! They answered all my questions right away and gave me the best price out of all the companies I researched."</p>
+                        <h3>Mirian Ferre</h3>
+                        <p>"¡Fue tan fácil organizar mi viaje! Respondieron todas mis preguntas de inmediato y me dieron el mejor precio de todas las empresas que investigué."</p>
                     </Testimonial>
                 </ColumnOne>
                 <ColumnTwo>

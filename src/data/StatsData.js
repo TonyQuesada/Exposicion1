@@ -10,22 +10,22 @@ var icon4 = new FaMoneyCheck({color: '#3ef576'});
 export const StatsData = [
     {
         icon: icon1,
-        title: "Over 100 Destinations",
-        desc: "Travel to over 100 unique place",
+        title: "Más De 100 Destinos",
+        desc: "Viaja a más de 100 lugares únicos",
     },
     {
         icon: icon2,
-        title: "1 Million Trips Made",
-        desc: "Over 1 million trips completed last year",
+        title: "1 Millón De Viajes Realizados",
+        desc: "Más de 1 millón de viajes realizados el año pasado",
     },
     {
         icon: icon3,
-        title: "Fastest Support",
-        desc: "Access our suppor team 24/7",
+        title: "Soporte Más Rápido",
+        desc: "Accede a nuestro equipo de soporte 24/7",
     },
     {
         icon: icon4,
-        title: "Best Deals",
-        desc: "We offer the best prices",
+        title: "Mejores Tratos",
+        desc: "Ofrecemos los mejores precios",
     }
 ]

@@ -9,9 +9,9 @@ import Email from "../components/Email";
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Explorix" />
     <Hero />
-    <Trips heading="Our Favorite Destinations" />
+    <Trips heading="Nuestros Destinos Favoritos" />
     <Testimonials />
     <Stats />
     <Email />

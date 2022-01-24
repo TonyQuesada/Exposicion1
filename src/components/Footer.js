@@ -8,26 +8,26 @@ const Footer = () => {
       <FooterLinksWrapper>
         <FooterDesc>
           <h1>Explorix</h1>
-          <p>We strive to create the best experience for our custumers</p>
+          <p>Nos esforzamos por crear la mejor experiencia para nuestros clientes.</p>
         </FooterDesc>
         <FooterLinkItems>
-          <FooterLinkTitle>Contact Us</FooterLinkTitle>
-          <FooterLink to="/about">Contact</FooterLink>
-          <FooterLink to="/">Support</FooterLink>
-          <FooterLink to="/">Destinations</FooterLink>
-          <FooterLink to="/">Sponsorships</FooterLink>
+          <FooterLinkTitle>Contáctenos</FooterLinkTitle>
+          <FooterLink to="/about">Contacto</FooterLink>
+          <FooterLink to="/">Soporte</FooterLink>
+          <FooterLink to="/">Destinos</FooterLink>
+          <FooterLink to="/">Patrocinios</FooterLink>
         </FooterLinkItems>
       </FooterLinksWrapper>
       <FooterLinksWrapper>
         <FooterLinkItems>
-          <FooterLinkTitle>Videos</FooterLinkTitle>
-          <FooterLink to="/">Submit Video</FooterLink>
-          <FooterLink to="/">Ambassadors</FooterLink>
-          <FooterLink to="/">Agency</FooterLink>
-          <FooterLink to="/">Influencer</FooterLink>
+          <FooterLinkTitle>Vídeos</FooterLinkTitle>
+          <FooterLink to="/">Enviar Vídeo</FooterLink>
+          <FooterLink to="/">Embajadores</FooterLink>
+          <FooterLink to="/">Agencia</FooterLink>
+          <FooterLink to="/">Influencers</FooterLink>
         </FooterLinkItems>
         <FooterLinkItems>
-          <FooterLinkTitle>Social Media</FooterLinkTitle>
+          <FooterLinkTitle>Redes Sociales</FooterLinkTitle>
           <FooterLink to="/">Instagram</FooterLink>
           <FooterLink to="/">Facebook</FooterLink>
           <FooterLink to="/">Youtube</FooterLink>
