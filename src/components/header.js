@@ -5,11 +5,11 @@ import { FaBars } from 'react-icons/fa';
 import { menuData } from "../data/MenuData";
 import { Button } from "./Button";
 
-const Header = () => {
+const Header = ({ toggle }) => {
   return (
     <Nav>
       <NavLink to="/">EXPLORIX</NavLink>
-      <Bars />
+      <Bars onClick={toggle} />
       <NavMenu>
         {menuData.map((item, index) => (
           <NavLink to={item.link} key={index}>
