@@ -117,8 +117,18 @@ const ProductImg = styled(Img)`
     transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 
     &:hover{
-        filter: brightness(100%);
+        filter: brightness(100%);        
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05)
     }
+
+    @media screen and (max-width: 768px) {
+        &:hover{        
+            -webkit-transform: scale(1.03);
+            transform: scale(1.03)
+        } 
+    }
+
 `;
 
 const ProductInfo = styled.div`

@@ -7,7 +7,6 @@ import { GlobalStyle } from "./styles/GlobalStyles"
 const Layout = ({ children }) => {  
   
   const [isOpen, setIsOpen] = useState(false);
-
   const toggle = () => {
     setIsOpen(!isOpen);
   };

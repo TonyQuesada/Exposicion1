@@ -34,7 +34,7 @@ const Testimonials = () => {
             <ContentWrapper>
                 <ColumnOne>
                     <Testimonial>
-                        <IoMdCheckmarkCircleOutline 
+                        <IoMdCheckmarkCircleOutline
                             css={`
                                 color: #3fffa8;
                                 font-size: 2rem;
@@ -45,7 +45,7 @@ const Testimonials = () => {
                         <p>"La mayor experiencia de mi vida! Fue muy divertido explorar las montañas e hicieron que fuera muy fácil reservar mi viaje y alojamiento."</p>
                     </Testimonial>
                     <Testimonial>
-                        <FaRegLightbulb 
+                        <FaRegLightbulb
                             css={`
                                 color: #f9b19b;
                                 font-size: 2rem;
@@ -135,4 +135,18 @@ const ColumnTwo = styled.div`
 const Images = styled(Img)`
     border-radius: 10px;
     height: 100%;
+
+    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    &:hover{        
+        -webkit-transform: scale(1.04);
+        transform: scale(1.04)
+    }    
+    
+    @media screen and (max-width: 768px) {
+        &:hover{        
+            -webkit-transform: scale(1.02);
+            transform: scale(1.02)
+        } 
+    }
+
 `;
